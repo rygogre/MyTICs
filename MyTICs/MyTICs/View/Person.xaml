@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyTICs.View.Person"
+             Title="Dinamizador">  
+<ContentPage.ToolbarItems>
+    <ToolbarItem Name="Guardar" Icon="save.png" Activated="OnSaveClicked" Order="Primary" Priority="0" />   
+  </ContentPage.ToolbarItems>
+  <ContentPage.Content>
+  <StackLayout Padding="5,5,5,5">     
+      <Entry x:Name="cedulaEntry" Placeholder="Cédula" Keyboard="Numeric" />     
+      <Entry x:Name="nombreEntry" Placeholder="Nombre" />     
+      <Entry x:Name="apellidosEntry" Placeholder="Apellidos" />
+      <Entry x:Name="telefonoEntry" Placeholder="Teléfono" Keyboard="Telephone" />
+      <Entry x:Name="emailEntry" Placeholder="Email" />
+      <Picker x:Name="centroEducativoPicker" HorizontalOptions="FillAndExpand" >
+      </Picker>
+    </StackLayout>
+  
+
+  
+    </ContentPage.Content>
+</ContentPage>

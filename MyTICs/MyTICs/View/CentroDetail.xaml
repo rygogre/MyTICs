@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             x:Class="MyTICs.View.CentroDetail"
+              Title="Detalle">
+  
+    <ContentPage.ToolbarItems>
+      <ToolbarItem Name="Edit" Icon="edit.png" Activated="OnEditClicked" Order="Primary" Priority="0" />
+      <ToolbarItem Name="Delete" Icon="delete.png" Activated="OnDeleteClicked" Order="Primary" Priority="1" />
+    </ContentPage.ToolbarItems>
+    <StackLayout>
+    <StackLayout BackgroundColor="#d81b60">						
+               <Label x:Name="centroLabel" Text="" FontSize="Large" XAlign="Center" HorizontalOptions="Center"
+							TextColor="White"/>
+              <Label x:Name="direccionLabel" Text="" FontSize="Small" XAlign="Center" HorizontalOptions="Center"
+							TextColor="White"/>
+		</StackLayout>
+
+    <maps:Map x:Name="mainMap"></maps:Map>
+  </StackLayout>
+</ContentPage>

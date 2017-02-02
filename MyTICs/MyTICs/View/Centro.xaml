@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyTICs.View.Centro"
+             Title="Centro">
+  <ContentPage.ToolbarItems>
+    <ToolbarItem Name="Guardar" Icon="save.png" Activated="OnSaveClicked" Order="Primary" Priority="0" />
+  </ContentPage.ToolbarItems>
+  <ContentPage.Content>
+    <StackLayout Padding="5,5,5,5">
+      <Entry x:Name="nombreCentroEntry" Placeholder="Nombre" />
+      <Entry x:Name="direcionEntry" Placeholder="Dirección" />
+      <Entry x:Name="latitudEntry" Placeholder="Latitud" Keyboard="Numeric"  />
+      <Entry x:Name="longitudEntry" Placeholder="Actitud" Keyboard="Numeric" />      
+    </StackLayout>
+  </ContentPage.Content>
+</ContentPage>

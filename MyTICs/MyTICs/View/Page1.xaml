@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyTICs.View.Page1"
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+              Title="Mapa">
+  <ContentPage.ToolbarItems>
+    <ToolbarItem Name="Standard" Activated="OnMapType" Order="Primary" Priority="0" />
+  <ToolbarItem Name="Satelite" Activated="OnMapType1" Order="Primary" Priority="1" />
+  <ToolbarItem Name="Hibrido" Activated="OnMapType2" Order="Primary" Priority="2" />
+  </ContentPage.ToolbarItems>
+  <ContentPage.Content>
+    <maps:Map x:Name="mainMap"></maps:Map>
+  </ContentPage.Content>
+</ContentPage>
