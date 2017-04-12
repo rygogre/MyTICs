@@ -133,34 +133,9 @@ class MonoPackageManager_Resources {
 		"XLabs.Platform.dll",
 		"XLabs.Platform.Droid.dll",
 		"XLabs.Serialization.dll",
-		"Mono.Android.Export.dll",
 		"MyTICs.dll",
-		"System.Runtime.dll",
-		"System.Resources.ResourceManager.dll",
-		"System.Threading.Tasks.dll",
-		"System.IO.dll",
-		"System.Runtime.Extensions.dll",
-		"System.Collections.dll",
-		"System.Reflection.dll",
-		"System.Linq.Expressions.dll",
-		"System.Diagnostics.Debug.dll",
-		"System.Linq.dll",
-		"System.Threading.dll",
-		"System.Reflection.Extensions.dll",
-		"System.Globalization.dll",
-		"System.ObjectModel.dll",
-		"System.ComponentModel.dll",
-		"System.Xml.ReaderWriter.dll",
-		"System.Dynamic.Runtime.dll",
-		"System.Text.RegularExpressions.dll",
-		"System.Text.Encoding.dll",
-		"System.Runtime.Serialization.Primitives.dll",
-		"System.Runtime.Serialization.Xml.dll",
-		"System.Collections.Concurrent.dll",
-		"System.Runtime.InteropServices.dll",
-		"System.Diagnostics.Tools.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};
-	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_24";
+	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_25";
 }

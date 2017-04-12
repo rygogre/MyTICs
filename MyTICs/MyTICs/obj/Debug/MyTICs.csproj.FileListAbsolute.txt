@@ -27,7 +27,6 @@ C:\myXamarin\MyTICs\MyTICs\MyTICs\bin\Debug\XLabs.Forms.xml
 C:\myXamarin\MyTICs\MyTICs\MyTICs\bin\Debug\XLabs.Ioc.xml
 C:\myXamarin\MyTICs\MyTICs\MyTICs\bin\Debug\XLabs.Platform.xml
 C:\myXamarin\MyTICs\MyTICs\MyTICs\bin\Debug\XLabs.Serialization.xml
-C:\myXamarin\MyTICs\MyTICs\MyTICs\obj\Debug\MyTICs.csprojResolveAssemblyReference.cache
 C:\myXamarin\MyTICs\MyTICs\MyTICs\obj\Debug\MyTICs.MainPage.xaml.g.cs
 C:\myXamarin\MyTICs\MyTICs\MyTICs\obj\Debug\MyTICs.App.xaml.g.cs
 C:\myXamarin\MyTICs\MyTICs\MyTICs\obj\Debug\MyTICs.View.Page1.xaml.g.cs
@@ -40,9 +39,6 @@ C:\myXamarin\MyTICs\MyTICs\MyTICs\obj\Debug\MyTICs.View.CentroDetail.xaml.g.cs
 C:\myXamarin\MyTICs\MyTICs\MyTICs\obj\Debug\MyTICs.View.CameraPage.xaml.g.cs
 C:\myXamarin\MyTICs\MyTICs\MyTICs\obj\Debug\MyTICs.dll
 C:\myXamarin\MyTICs\MyTICs\MyTICs\obj\Debug\MyTICs.pdb
-C:\myXamarin\MyTICs\MyTICs\MyTICs\obj\Debug\MyTICs.dll.mdb
-C:\myXamarin\MyTICs\MyTICs\MyTICs\bin\Debug\MyTICs.dll.mdb
-C:\myXamarin\MyTICs\MyTICs\MyTICs\obj\Debug\MyTICs.dll.mdb
-C:\myXamarin\MyTICs\MyTICs\MyTICs\bin\Debug\MyTICs.dll.mdb
+C:\myXamarin\MyTICs\MyTICs\MyTICs\obj\Debug\MyTICs.csprojResolveAssemblyReference.cache
 C:\myXamarin\MyTICs\MyTICs\MyTICs\obj\Debug\MyTICs.dll.mdb
 C:\myXamarin\MyTICs\MyTICs\MyTICs\bin\Debug\MyTICs.dll.mdb

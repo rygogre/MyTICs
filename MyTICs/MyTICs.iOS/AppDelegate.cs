@@ -23,7 +23,12 @@ namespace MyTICs.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
+            //UITabBar.Appearance.SelectedImageTintColor = UIColor.FromRGB(118, 53, 235);
             LoadApplication(new App());
+
+            UITabBar.Appearance.TintColor = UIColor.White;
+            //UITabBar.Appearance.BarTintColor = UIColor.Black;
+            //.FromRGB(223, 112, 13);
 
             return base.FinishedLaunching(app, options);
         }

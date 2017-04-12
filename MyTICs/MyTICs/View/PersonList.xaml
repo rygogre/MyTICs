@@ -4,7 +4,8 @@
              x:Class="MyTICs.View.PersonList"
              xmlns:ViewModels="clr-namespace:MyTICs.ViewModels;assembly=MyTICs" 
              xmlns:converters="clr-namespace: MyTICs.Converters;assembly=MyTICs"
-             Title="Dinamizador">
+             Title="Dinamizador"
+             Icon="ic_account_circle_white.png">
   
   <ContentPage.Resources>
     <ResourceDictionary>
@@ -13,9 +14,10 @@
   </ContentPage.Resources>
   
 <ContentPage.ToolbarItems>
-    <ToolbarItem Name="Add" Icon="add.png" Activated="OnNewClicked" Order="Primary" Priority="0" />
+        <ToolbarItem Name="Add" Text="Add" Icon="ToolBarItem/add.png" Activated="OnNewClicked" Order="Primary" Priority="0" />
 </ContentPage.ToolbarItems>
   
+    
   <ContentPage.Content>
     <ListView  x:Name="personListView" ItemsSource="{Binding PersonList}" HasUnevenRows="True" SeparatorVisibility="Default" >
       <ListView.ItemTemplate>

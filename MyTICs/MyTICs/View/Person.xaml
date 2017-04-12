@@ -4,10 +4,10 @@
              x:Class="MyTICs.View.Person"
              Title="Dinamizador">  
 <ContentPage.ToolbarItems>
-    <ToolbarItem Name="Guardar" Icon="save.png" Activated="OnSaveClicked" Order="Primary" Priority="0" />   
+        <ToolbarItem Name="Guardar" Icon="ToolBarItem/save.png"  Activated="OnSaveClicked" Order="Primary" Priority="0" />   
   </ContentPage.ToolbarItems>
-  <ContentPage.Content>
-  <StackLayout Padding="5,5,5,5">     
+  <ContentPage.Content>       
+        <StackLayout>     
       <Entry x:Name="cedulaEntry" Placeholder="Cédula" Keyboard="Numeric" />     
       <Entry x:Name="nombreEntry" Placeholder="Nombre" />     
       <Entry x:Name="apellidosEntry" Placeholder="Apellidos" />
@@ -16,8 +16,5 @@
       <Picker x:Name="centroEducativoPicker" HorizontalOptions="FillAndExpand" >
       </Picker>
     </StackLayout>
-  
-
-  
     </ContentPage.Content>
 </ContentPage>
