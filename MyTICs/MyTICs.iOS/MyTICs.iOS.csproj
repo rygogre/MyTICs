@@ -198,40 +198,46 @@
     <AndroidResource Include="Resources\save.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\ic_account_circle_white.png" />
+    <BundleResource Include="Resources\account.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\ic_account_circle_white_2x.png" />
+    <BundleResource Include="Resources\account_2x.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\ic_account_circle_white_3x.png" />
+    <BundleResource Include="Resources\account_3x.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\Tab\ic_save_white.png" />
+    <BundleResource Include="Resources\ic_save_white.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\Tab\ic_save_white_2x.png" />
+    <BundleResource Include="Resources\ic_save_white_2x.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\Tab\ic_save_white_3x.png" />
+    <BundleResource Include="Resources\ic_save_white_3x.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\ToolBarItem\add.png" />
+    <BundleResource Include="Resources\add_2x.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\ToolBarItem\add_2x.png" />
+    <BundleResource Include="Resources\add_3x.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\ToolBarItem\add_3x.png" />
+    <BundleResource Include="Resources\location_2x.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\ToolBarItem\save.png" />
+    <BundleResource Include="Resources\location_3x.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\ToolBarItem\save_2x.png" />
+    <BundleResource Include="Resources\location.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\ToolBarItem\save_3x.png" />
+    <BundleResource Include="Resources\map.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\map_2x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\map_3x.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Forms.2.3.3.175\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.2.3.3.175\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />

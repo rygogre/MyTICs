@@ -104,5 +104,11 @@ C:\myXamarin\MyTICs\MyTICs\MyTICs.iOS\obj\iPhoneSimulator\Debug\optimized\ToolBa
 C:\myXamarin\MyTICs\MyTICs\MyTICs.iOS\obj\iPhoneSimulator\Debug\optimized\ToolBarItem\save.png
 C:\myXamarin\MyTICs\MyTICs\MyTICs.iOS\obj\iPhoneSimulator\Debug\optimized\ToolBarItem\save_2x.png
 C:\myXamarin\MyTICs\MyTICs\MyTICs.iOS\obj\iPhoneSimulator\Debug\optimized\ToolBarItem\save_3x.png
+C:\myXamarin\MyTICs\MyTICs\MyTICs.iOS\obj\iPhoneSimulator\Debug\optimized\Tab\location_2x.png
+C:\myXamarin\MyTICs\MyTICs\MyTICs.iOS\obj\iPhoneSimulator\Debug\optimized\Tab\location_3x.png
+C:\myXamarin\MyTICs\MyTICs\MyTICs.iOS\obj\iPhoneSimulator\Debug\optimized\Tab\location.png
+C:\myXamarin\MyTICs\MyTICs\MyTICs.iOS\obj\iPhoneSimulator\Debug\optimized\Tab\map.png
+C:\myXamarin\MyTICs\MyTICs\MyTICs.iOS\obj\iPhoneSimulator\Debug\optimized\Tab\map_2x.png
+C:\myXamarin\MyTICs\MyTICs\MyTICs.iOS\obj\iPhoneSimulator\Debug\optimized\Tab\map_3x.png
 C:\myXamarin\MyTICs\MyTICs\MyTICs.iOS\obj\iPhoneSimulator\Debug\MyTICs.iOS.exe.mdb
 C:\myXamarin\MyTICs\MyTICs\MyTICs.iOS\bin\iPhoneSimulator\Debug\MyTICs.iOS.exe.mdb

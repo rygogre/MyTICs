@@ -27,8 +27,9 @@ namespace MyTICs.iOS
             LoadApplication(new App());
 
             UITabBar.Appearance.TintColor = UIColor.White;
-            //UITabBar.Appearance.BarTintColor = UIColor.Black;
-            //.FromRGB(223, 112, 13);
+
+            //Iniciar MAP
+            Xamarin.FormsMaps.Init();
 
             return base.FinishedLaunching(app, options);
         }

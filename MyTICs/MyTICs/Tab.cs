@@ -13,13 +13,13 @@ namespace MyTICs
         public Tab()
         {
             Title = "My TICs";
-            Icon = "icon.png";
+            //Icon = "icon.png";
             BarBackgroundColor = Color.FromHex("#d81b60");      
                       
 
             Children.Add(new View.PersonList());
             Children.Add(new View.CentroList());
-            Children.Add(new View.CameraPage());
+            Children.Add(new View.Page1());
             
         }
     }

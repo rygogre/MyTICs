@@ -5,16 +5,21 @@
              xmlns:ViewModels="clr-namespace:MyTICs.ViewModels;assembly=MyTICs" 
              xmlns:converters="clr-namespace: MyTICs.Converters;assembly=MyTICs"
              Title="Dinamizador"
-             Icon="ic_account_circle_white.png">
-  
+             Icon="account.png">  
   <ContentPage.Resources>
     <ResourceDictionary>
       <converters:CedulaMaskConverter x:Key="cedulaMaskConverter"/>      
     </ResourceDictionary>
   </ContentPage.Resources>
-  
-<ContentPage.ToolbarItems>
-        <ToolbarItem Name="Add" Text="Add" Icon="ToolBarItem/add.png" Activated="OnNewClicked" Order="Primary" Priority="0" />
+
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness"
+                    iOS="10, 0, 10, 10"
+                    Android="0, 0, 0, 0"/>
+    </ContentPage.Padding>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="Add" Text="Add" Icon="add.png" Activated="OnNewClicked" Order="Primary" Priority="0" />
 </ContentPage.ToolbarItems>
   
     

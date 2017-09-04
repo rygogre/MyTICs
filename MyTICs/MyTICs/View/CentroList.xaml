@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MyTICs.View.CentroList"  
              xmlns:ViewModels="clr-namespace:MyTICs.ViewModels;assembly=MyTICs"
-             Title="Centros">
+             Title="Centros"
+              Icon="location.png">
 
   <ContentPage.ToolbarItems>
     <ToolbarItem Name="Add" Icon="add.png" Activated="OnNewClicked" Order="Primary" Priority="0" />
