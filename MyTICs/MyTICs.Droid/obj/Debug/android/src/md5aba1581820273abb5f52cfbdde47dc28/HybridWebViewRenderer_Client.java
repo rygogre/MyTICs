@@ -16,14 +16,14 @@ public class HybridWebViewRenderer_Client
 	}
 
 
-	public HybridWebViewRenderer_Client () throws java.lang.Throwable
+	public HybridWebViewRenderer_Client ()
 	{
 		super ();
 		if (getClass () == HybridWebViewRenderer_Client.class)
 			mono.android.TypeManager.Activate ("XLabs.Forms.Controls.HybridWebViewRenderer+Client, XLabs.Forms.Droid, Version=2.0.5782.12263, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
 
-	public HybridWebViewRenderer_Client (md5aba1581820273abb5f52cfbdde47dc28.HybridWebViewRenderer p0) throws java.lang.Throwable
+	public HybridWebViewRenderer_Client (md5aba1581820273abb5f52cfbdde47dc28.HybridWebViewRenderer p0)
 	{
 		super ();
 		if (getClass () == HybridWebViewRenderer_Client.class)

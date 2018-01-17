@@ -19,14 +19,14 @@ public class GridDataSource
 	}
 
 
-	public GridDataSource () throws java.lang.Throwable
+	public GridDataSource ()
 	{
 		super ();
 		if (getClass () == GridDataSource.class)
 			mono.android.TypeManager.Activate ("XLabs.Forms.Controls.GridDataSource, XLabs.Forms.Droid, Version=2.0.5782.12263, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
 
-	public GridDataSource (android.content.Context p0) throws java.lang.Throwable
+	public GridDataSource (android.content.Context p0)
 	{
 		super ();
 		if (getClass () == GridDataSource.class)

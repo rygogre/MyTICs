@@ -21,14 +21,14 @@ public class MonthAdapter
 	}
 
 
-	public MonthAdapter () throws java.lang.Throwable
+	public MonthAdapter ()
 	{
 		super ();
 		if (getClass () == MonthAdapter.class)
 			mono.android.TypeManager.Activate ("XLabs.Forms.Controls.MonoDroid.TimesSquare.MonthAdapter, XLabs.Forms.Droid, Version=2.0.5782.12263, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
 
-	public MonthAdapter (android.content.Context p0, md5afd6673e0ee9440e9d745cae3b1062af.CalendarPickerView p1) throws java.lang.Throwable
+	public MonthAdapter (android.content.Context p0, md5afd6673e0ee9440e9d745cae3b1062af.CalendarPickerView p1)
 	{
 		super ();
 		if (getClass () == MonthAdapter.class)

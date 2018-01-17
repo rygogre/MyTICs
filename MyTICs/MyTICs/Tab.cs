@@ -18,8 +18,8 @@ namespace MyTICs
                       
 
             Children.Add(new View.PersonList());
-            Children.Add(new View.CentroList());
-            Children.Add(new View.Page1());
+            //Children.Add(new View.CentroList());
+           // Children.Add(new View.Page1());
             
         }
     }

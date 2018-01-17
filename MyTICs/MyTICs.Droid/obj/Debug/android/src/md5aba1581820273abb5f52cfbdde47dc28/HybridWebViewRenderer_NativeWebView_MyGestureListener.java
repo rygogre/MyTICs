@@ -16,14 +16,14 @@ public class HybridWebViewRenderer_NativeWebView_MyGestureListener
 	}
 
 
-	public HybridWebViewRenderer_NativeWebView_MyGestureListener () throws java.lang.Throwable
+	public HybridWebViewRenderer_NativeWebView_MyGestureListener ()
 	{
 		super ();
 		if (getClass () == HybridWebViewRenderer_NativeWebView_MyGestureListener.class)
 			mono.android.TypeManager.Activate ("XLabs.Forms.Controls.HybridWebViewRenderer+NativeWebView+MyGestureListener, XLabs.Forms.Droid, Version=2.0.5782.12263, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
 
-	public HybridWebViewRenderer_NativeWebView_MyGestureListener (md5aba1581820273abb5f52cfbdde47dc28.HybridWebViewRenderer p0) throws java.lang.Throwable
+	public HybridWebViewRenderer_NativeWebView_MyGestureListener (md5aba1581820273abb5f52cfbdde47dc28.HybridWebViewRenderer p0)
 	{
 		super ();
 		if (getClass () == HybridWebViewRenderer_NativeWebView_MyGestureListener.class)

@@ -19,14 +19,14 @@ public class ImageGalleryRenderer_DataSource
 	}
 
 
-	public ImageGalleryRenderer_DataSource () throws java.lang.Throwable
+	public ImageGalleryRenderer_DataSource ()
 	{
 		super ();
 		if (getClass () == ImageGalleryRenderer_DataSource.class)
 			mono.android.TypeManager.Activate ("XLabs.Forms.Controls.ImageGalleryRenderer+DataSource, XLabs.Forms.Droid, Version=2.0.5782.12263, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
 
-	public ImageGalleryRenderer_DataSource (md5aba1581820273abb5f52cfbdde47dc28.ImageGalleryRenderer p0) throws java.lang.Throwable
+	public ImageGalleryRenderer_DataSource (md5aba1581820273abb5f52cfbdde47dc28.ImageGalleryRenderer p0)
 	{
 		super ();
 		if (getClass () == ImageGalleryRenderer_DataSource.class)

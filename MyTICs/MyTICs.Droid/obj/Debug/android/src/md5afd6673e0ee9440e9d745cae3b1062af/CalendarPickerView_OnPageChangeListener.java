@@ -16,14 +16,14 @@ public class CalendarPickerView_OnPageChangeListener
 	}
 
 
-	public CalendarPickerView_OnPageChangeListener () throws java.lang.Throwable
+	public CalendarPickerView_OnPageChangeListener ()
 	{
 		super ();
 		if (getClass () == CalendarPickerView_OnPageChangeListener.class)
 			mono.android.TypeManager.Activate ("XLabs.Forms.Controls.MonoDroid.TimesSquare.CalendarPickerView+OnPageChangeListener, XLabs.Forms.Droid, Version=2.0.5782.12263, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
 
-	public CalendarPickerView_OnPageChangeListener (md5afd6673e0ee9440e9d745cae3b1062af.CalendarPickerView p0) throws java.lang.Throwable
+	public CalendarPickerView_OnPageChangeListener (md5afd6673e0ee9440e9d745cae3b1062af.CalendarPickerView p0)
 	{
 		super ();
 		if (getClass () == CalendarPickerView_OnPageChangeListener.class)
